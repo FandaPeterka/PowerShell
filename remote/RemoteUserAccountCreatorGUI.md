@@ -1,6 +1,6 @@
 # Script Overview: Remote User Account Creation GUI
 
-![Create User GUI](images/RemoteUserAccountCreatorGUI.png)
+![Create User GUI](./images/RemoteUserAccountCreatorGUI.png)
 
 This PowerShell script provides a graphical user interface (GUI) for remotely creating user accounts on multiple target computers. The script reads a list of target computer names from a text file, prompts the user for their credentials, and enables the user to input information for a new account. It allows customization of account details such as username, full name, password, and permission level (User or Administrator).
 
