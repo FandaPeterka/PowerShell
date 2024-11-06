@@ -39,7 +39,7 @@ A dropdown menu to select either "User" or "Administrator" for the new account, 
 
 Here is a sample layout of the interface displayed in the GUI:
 
-![Create User GUI](images/RemoteUserAccountCreatorGUI.png)
+![Create User GUI](/images/RemoteUserAccountCreatorGUI.png)
 
 ## Notes
 
