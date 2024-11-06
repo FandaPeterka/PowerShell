@@ -15,7 +15,7 @@
 # - PowerShell Remoting must be enabled on each target computer.
 # - Administrator permissions are required for setting the date and time on remote systems.
 
-$computerListPath = "C:\PS\computers.txt"
+$computerListPath = "C:\path\to\your\computers.txt"
 
 # Function to show the date/time input dialog
 function Show-DateTimeDialog {
