@@ -1,3 +1,21 @@
+# This PowerShell script is designed to automate the creation of user accounts on multiple remote computers. 
+# It provides a graphical user interface (GUI) using Windows Presentation Foundation (WPF) elements, allowing 
+# an administrator to input user details (username, full name, password, and permission level) and select 
+# the target computers where the new account should be created.
+
+# Key functionalities:
+# - Reads a list of target computers from a specified text file.
+# - Prompts the user for credentials required to connect to each remote computer.
+# - Displays a GUI with fields for entering the new user's information.
+# - Allows selection of individual computers or all computers for applying the user creation action.
+# - Adds the new user to either the "Users" group or the "Administrators" group, based on the selected permission.
+# - Creates a PowerShell session with each selected computer and executes the user creation commands remotely.
+
+# Note: 
+# - Update the `$filePath` variable with the correct path to your text file listing target computers.
+# - This script requires PowerShell Remoting to be enabled on target computers for remote sessions.
+# - This script also requires adequate permissions to create users on the specified target systems.
+
 Add-Type -AssemblyName PresentationFramework
 
 # Path to the text file
