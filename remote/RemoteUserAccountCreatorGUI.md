@@ -1,37 +1,48 @@
-# Script Overview: Remote User Account Creation GUI
+# RemoteUserAccountCreatorGUI
 
-<img src="/images/RemoteUserAccountCreatorGUI.png" alt="Create User GUI" width="400">
+## Overview
 
-This PowerShell script provides a graphical user interface (GUI) for remotely creating user accounts on multiple target computers. The script reads a list of target computer names from a text file, prompts the user for their credentials, and enables the user to input information for a new account. It allows customization of account details such as username, full name, password, and permission level (User or Administrator).
+This PowerShell script provides a graphical interface for remotely creating local user accounts on multiple target computers. It simplifies the process of setting up new user accounts across a network, allowing administrators to input necessary account details and apply them to selected computers. The interface also includes options for specifying permission levels for each user.
 
-## How It Works
+### Key Features
+- **Remote User Creation**: Enables administrators to create user accounts on multiple remote computers simultaneously.
+- **Customizable User Details**: Input fields for username, full name, password, and permission level (User or Administrator).
+- **Credential Management**: Prompts for secure administrator credentials to authorize account creation on remote systems.
 
-1. **Load Computers List**: 
-   The script reads the list of target computers from a specified text file. Each computer in the list will be displayed as a selectable checkbox in the GUI.
+## Requirements
+- **PowerShell**: Ensure that PowerShell is installed with access to Windows Presentation Foundation (WPF) libraries.
+- **Admin Credentials**: Administrator credentials are required to create user accounts on remote computers.
+- **Computer List File**: Update the `$filePath` variable to point to a text file containing a list of target computers (e.g., `C:\path\to\your\computers.txt`).
 
-2. **Credential Prompt**:
-   The script prompts the user to enter their credentials, which will be used to establish a remote session with each target computer.
+## Usage
 
-3. **User Interface (GUI)**:
-   The main GUI window is generated using .NET's PresentationFramework library and consists of input fields for:
-   - Username
-   - Full Name
-   - Password (input hidden for security)
-   - Permission Level (dropdown to select "User" or "Administrator")
-   The GUI also includes a selectable list of computers, allowing the user to apply the new account creation on multiple computers at once.
+1. **Prepare Target Computers List**:
+   - Ensure that the target computers are listed in a text file located at the path specified in `$filePath`. Adjust the path if necessary.
 
-4. **Account Creation**:
-   When the "Create User" button is clicked, the script:
-   - Connects to each selected target computer using a remote session.
-   - Executes commands on each target computer to create a new local user with the specified details.
-   - Adds the new user to either the "Users" or "Administrators" group, based on the chosen permission level.
+2. **Run the Script**:
+   - Open PowerShell and execute the script. A credential prompt will appear, allowing administrators to provide credentials for remote access.
 
-5. **Session Management**:
-   The script securely manages each session, establishing and closing connections to each computer individually to ensure security.
+3. **Use the GUI**:
+   - **Enter User Details**: Fill in the required fields such as username, full name, password, and permission level.
+   - **Select Target Computers**: Use the checkboxes to select the computers on which to create the new account.
+   - **Create User**: Click "Create User" to apply the account settings to each selected computer.
 
-## Important Notes
-- **Path Configuration**: Update `$filePath` to point to your list of computers.
-- **Permissions**: Ensure the script is run with appropriate permissions to create users on remote computers.
-- **GUI Customization**: This GUI is flexible and can be customized for other administrative tasks if desired.
+## Script Interface
 
-This script is designed to simplify the remote user management process, making it more accessible to administrators through an intuitive GUI.
+### Create User Button
+The "Create User" button connects to each selected computer, applies the specified user details, and assigns the chosen permission level.
+
+### Permission Level Dropdown
+A dropdown menu to select either "User" or "Administrator" for the new account, determining the user's access rights on each target computer.
+
+## Interface Preview
+
+Here is a sample layout of the interface displayed in the GUI:
+
+![Create User GUI](images/RemoteUserAccountCreatorGUI.png)
+
+## Notes
+
+- Ensure PowerShell remoting is enabled on all target computers.
+- The script will prompt for credentials to establish each remote session securely.
+- Any connection errors or permission issues will be displayed in the PowerShell console for troubleshooting.
