@@ -2,7 +2,7 @@
 
 ## Overview
 
-This PowerShell script, `PrepareADUserCSV.ps1`, prepares a CSV file with cleaned user data for Active Directory (AD) account creation. It processes an input CSV file with Czech diacritical marks in names, removes the accents, capitalizes the first letter of each name, and outputs a formatted CSV file ready for AD import.
+This PowerShell script, `CleanAndFormatADUsersCSV.ps1`, prepares a CSV file with cleaned user data for Active Directory (AD) account creation. It processes an input CSV file with Czech diacritical marks in names, removes the accents, capitalizes the first letter of each name, and outputs a formatted CSV file ready for AD import.
 
 ## Key Features
 
@@ -24,7 +24,7 @@ This PowerShell script, `PrepareADUserCSV.ps1`, prepares a CSV file with cleaned
 3. **Run the Script**:
    - Open PowerShell and execute the script:
      ```powershell
-     .\PrepareADUserCSV.ps1
+     .\CleanAndFormatADUsersCSV.ps1
      ```
 
 4. **Check the Output**:
