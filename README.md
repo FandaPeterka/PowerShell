@@ -2,7 +2,7 @@
 
 Welcome to my PowerShell Scripts repository! This is a curated collection of scripts aimed at simplifying and speeding up system administration tasks. The repository is organized into two main folders, each tailored for specific scenarios: `local` for scripts running directly on a local machine, and `remote` for scripts that execute tasks on other computers across a network.
 
-As an IT professional, I leverage PowerShell to automate and streamline repetitive processes, reducing manual effort and enhancing system management efficiency.
+As an IT professional, I leverage PowerShell to automate and streamline repetitive processes, reducing manual effort and enhancing system management efficiency. Additionally, a graphical console interface has been created for a significant portion of these scripts, providing a user-friendly experience to manage tasks more intuitively.
 
 ## Repository Structure
 
@@ -15,6 +15,10 @@ The `remote` folder includes scripts that are intended for executing tasks remot
 ## Purpose
 
 The scripts in this repository serve to automate and simplify daily system management tasks, helping to eliminate repetitive manual steps, improve accuracy, and save time. By using PowerShell's robust capabilities, these scripts can manage both local and remote tasks effectively, making them valuable tools in any IT admin's toolkit.
+
+## Graphical Console Interface
+
+For a large portion of these scripts, a graphical console interface is available. This console enhances usability by offering an intuitive, visual interface to interact with the scripts, making it easier for admins and technicians to run and monitor tasks without needing to dive into the command line.
 
 ## Prerequisites
 
@@ -30,4 +34,4 @@ Each script includes comments to guide you through its specific functionality, r
 
 These scripts are continually updated to stay in line with best practices in system administration. Contributions, issues, and forks are welcome to help expand the repository’s functionality.
 
-Happy scripting! 
+Happy scripting!
