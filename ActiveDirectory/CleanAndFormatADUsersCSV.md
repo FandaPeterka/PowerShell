@@ -1,4 +1,4 @@
-# PrepareADUserCSV.ps1
+# PrepareADUserCSV
 
 ## Overview
 
