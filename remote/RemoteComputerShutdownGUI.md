@@ -39,7 +39,7 @@ This PowerShell script provides a graphical user interface (GUI) for managing re
 
 ## Interface Preview
 
-![Remote Computer Shutdown GUI](images/RemoteComputerShutdownGUI.png)
+<img src="/images/RemoteComputerShutdownGUI.png" alt="RemoteComputerShutdownGUI" width="300">
 
 ## Notes
 
