@@ -1,4 +1,4 @@
-# Remote Computer Restart and Auto Logon GUI
+# RemoteComputerRestartAndAutologonGUI
 
 ## Overview
 
@@ -46,7 +46,8 @@ This PowerShell script provides a graphical interface for selecting and restarti
 
 ## Interface Preview
 
-![Restart and Auto Logon GUI](images/RestartAutoLogonGUI.png)
+<img src="/images/RemoteComputerRestartAndAutoLogonGUI.png" alt="RemoteComputerRestartAndAutologonGUI" width="400">
+
 
 ## Notes
 
