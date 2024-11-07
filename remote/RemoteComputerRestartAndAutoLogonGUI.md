@@ -46,8 +46,8 @@ This PowerShell script provides a graphical interface for selecting and restarti
 
 ## Interface Preview
 
-<img src="/images/RemoteComputerRestartAndAutoLogonGUI.png" alt="RemoteComputerRestartAndAutologonGUI" width="400">
-
+<img src="/images/RemoteComputerRestartAndAutoLogonGUI1.png" alt="RemoteComputerRestartAndAutologonGUI" width="500">
+<img src="/images/RemoteComputerRestartAndAutoLogonGUI2.png" alt="RemoteComputerRestartAndAutologonGUI" width="500">
 
 ## Notes
 
