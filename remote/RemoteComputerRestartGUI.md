@@ -1,4 +1,4 @@
-# Remote Computer Restart GUI
+# RemoteComputerRestartGUI
 
 ## Overview
 
@@ -39,7 +39,7 @@ This PowerShell script provides a graphical user interface (GUI) for managing re
 
 ## Interface Preview
 
-![Remote Computer Restart GUI](images/RemoteComputerRestartGUI.png)
+<img src="/images/RemoteComputerRestartGUI.png" alt="RemoteComputerRestartGUI" width="300">
 
 ## Notes
 
