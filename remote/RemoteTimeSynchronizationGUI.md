@@ -38,7 +38,7 @@ This PowerShell script provides a graphical interface to set the same date and t
 
 Here is an example of the interface layout, as seen in the GUI window:
 
-![Date and Time Input GUI](images/DateTimeInputGUI.png)
+<img src="/images/RemoteTimeSynchronizationGUI.png" alt="RemoteTimeSynchronizationGUI" width="300">
 
 ## Important Considerations
 - Ensure that each remote computer allows PowerShell remoting and that the script is executed with adequate permissions.
