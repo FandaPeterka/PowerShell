@@ -39,7 +39,7 @@ The "Delete Selected Users" button removes selected users from the computers, wi
 
 Here is an example of the interface layout, as seen in the GUI window:
 
-![User Management GUI](/images/RemoteUserAccountRemoverGUI.png)
+<img src="/images/RemoteUserAccountRemoverGUI.png" alt="RemoteUserAccountRemoverGUI" width="500">
 
 ## Notes
 
