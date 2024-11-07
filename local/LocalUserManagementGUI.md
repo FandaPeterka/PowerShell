@@ -46,9 +46,17 @@ View and edit the selected user's full name and description. This tab also displ
 - **Interface Updates**: Changes to users or groups are immediately reflected in the interface.
 - **Permissions**: Ensure PowerShell is run with administrator permissions to manage local users and groups effectively.
 
-## Example
+## Example 
 
-![User Management GUI](images/UserManagementGUI.png)
+<table>
+  <tr>
+    <td><img src="/images/LocalUserManagementGUI1.png" alt="LocalUserManagementGUI1" width="350"></td>
+    <td><img src="/images/LocalUserManagementGUI2.png" alt="LocalUserManagementGUI2" width="350"></td>
+    <td><img src="/images/LocalUserManagementGUI3.png" alt="LocalUserManagementGUI3" width="350"></td>
+    <td><img src="/images/LocalUserManagementGUI4.png" alt="LocalUserManagementGUI4" width="350"></td>
+  </tr>
+</table>
+
 
 *The GUI features tabs for each function, making user management more intuitive and efficient.*
 
