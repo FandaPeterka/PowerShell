@@ -46,7 +46,7 @@ View and edit the selected user's full name and description. This tab also displ
 - **Interface Updates**: Changes to users or groups are immediately reflected in the interface.
 - **Permissions**: Ensure PowerShell is run with administrator permissions to manage local users and groups effectively.
 
-## Example 
+## Interface Preview
 
 <table>
   <tr>
