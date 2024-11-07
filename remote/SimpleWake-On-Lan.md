@@ -1,4 +1,4 @@
-# Wake-On-LAN GUI for Virtual Machines
+# SimpleWake-On-LANGUI
 
 ## Overview
 
