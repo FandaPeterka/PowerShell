@@ -1,4 +1,4 @@
-# SimpleWake-On-LANGUI
+# SimpleWake-On-LanGUI
 
 ## Overview
 
