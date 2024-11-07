@@ -1,4 +1,4 @@
-# Remote User Log-Off GUI
+# RemoteUserLog-OffGUI
 
 ## Overview
 
@@ -40,7 +40,7 @@ Initiates the log-off process on selected computers. A message confirms each use
 
 Here’s an example of the interface layout in the GUI window:
 
-![Log Off Users GUI](images/RemoteUserLogOffGUI.png)
+<img src="/images/RemoteUserLog-OffGUI.png" alt="RemoteUserLog-OffGUI" width="400">
 
 ## Notes
 
