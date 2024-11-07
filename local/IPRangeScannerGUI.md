@@ -51,4 +51,4 @@ Logs are created in the format `ScanLog_yyyyMMdd_HHmmss.txt` in the `C:\path\to\
 
 Below is an example layout of the GUI:
 
-![IP Range Scanner GUI](images/IPRangeScannerGUI.png)
+<img src="/images/IPRangeScannerGUI.png" alt="IPRangeScannerGUI" width="400">
